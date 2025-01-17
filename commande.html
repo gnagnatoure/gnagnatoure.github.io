@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASSY CLOTHES</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">"
+</head>
+<body>
+    <header>
+        <h1>CLASSY CLOTHES</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="nosproduits.html">Produits</a></li>
+                <li><a href="commande.html">Vos commandes</a></li>
+                <li><a href="about.html">A propos</a></li>
+            </ul>
+        </nav>
+      </header>
+      <section id="order">
+        <h2>Passer une Commande</h2>
+        <form action="submit_order.php" method="post">
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="product">Produit :</label>
+                <select id="product" name="product" required>
+                    <option value="">Sélectionnez un produit</option>
+                    <option value="Tenue 1">Tenue 1</option>
+                    <option value="Tenue 2">Tenue 2</option>
+                    <option value="Tenue 3">Tenue 3</option>
+                    <option value="Tenue 4">Tenue 4</option>
+                </select>
+            </div>
+            <div>
+                <label for="quantity">Quantité :</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </div>
+            <div>
+                <label for="address">Adresse de livraison :</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Commander</button>
+            </div>
+        </form>
+    </section>
+
+
+
+      <footer id="contact">
+        <p>Contactez-nous : classyclothes@gmail.com</p>
+        <p>&copy; 2024 Classy clothes</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></script>
+
+</body>
+</html>

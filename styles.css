@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/Background/télécharger (3).jpeg"); /* Chemin vers votre image */
+    background-size: cover; /* Couvre tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+}
+
+header {
+    background-color:  rgb(233, 137, 158); /* Arrière-plan semi-transparent pour le header */
+    color:#E1306C;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main {
+    text-align: center; /* Center the main content */
+}
+
+h2 {
+    color: rgb(236, 234, 234);
+    font-size: 2em;
+    margin: 20px 0;
+    border: 2px solid #e1497c; /* Bordure colorée */
+    padding: 10px; /* Espacement à l'intérieur de la bordure */
+    display: inline-block; /* Pour que la bordure s'ajuste au texte */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #E1306C; /* Fond blanc pour contraster avec la bordure */
+}
+
+.category {
+    background-color:#E1306C;
+    border: 2px solid #ec497f; /* Border color */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block; /* Ensures categories are centered */
+    box-shadow: 0 2px 10px #e8b9c9  ;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.product {
+    background-color: rgb(237, 171, 190);
+    border: 1px solid rgb(235, 143, 171)515;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color:  rgb(233, 137, 158);
+    color:rgb(244, 55, 109) ;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+button {
+    background-color: #E1306C; /* Couleur de fond rose */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px 20px; /* Espacement intérieur */
+    font-size: 1em; /* Taille de la police */
+    cursor: pointer; /* Change le curseur en main */
+    transition: background-color 0.3s ease; /* Transition pour l'effet au survol */
+}
+
+button:hover {
+    background-color: #c71a5e; /* Couleur de fond au survol */
+}
+main {
+    position: relative; /* Nécessaire pour le positionnement absolu de l'aside */
+}
+
+aside {
+    
+    background-color: rgb(234, 173, 186);
+    border: 1px solid #ddd; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 15px; /* Espacement intérieur */
+    width: 400px; /* Largeur fixe pour l'aside */
+    box-shadow: 0 2px 10px rgb(216, 96, 96); /* Ombre légère */
+}
+
+.sectionPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
