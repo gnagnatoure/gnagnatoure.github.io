@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/Background/télécharger (3).jpeg"); /* Chemin vers votre image */
+    background-size: cover; /* Couvre tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+}
+
+header {
+    background-color:  rgb(233, 137, 158); /* Arrière-plan semi-transparent pour le header */
+    color:#E1306C;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    background-color:#E1306C;
+    border: 2px solid #ec497f; /* Border color */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 10px #e8b9c9  ;
+}
+main {
+    text-align: center; /* Centrer le contenu principal */
+    margin: 20px; /* Espacement autour du contenu */
+}
+
+h2 {
+    color: rgb(236, 234, 234);
+    font-size: 2em;
+    margin: 20px 0;
+    border: 2px solid #e1497c;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #E1306C;
+}
+
+h3 {
+    color: rgb(62, 62, 62);
+    margin-top: 20px;
+}
+
+p {
+    color: rgb(43, 37, 37);
+    line-height: 1.6; /* Améliorer la lisibilité */
+    margin: 15px 0;
+}
+footer {
+    background-color:  rgb(233, 137, 158);
+    color:rgb(244, 55, 109) ;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
